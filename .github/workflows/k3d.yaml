@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   validate-k3d:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     env:
       K3D_VERSION: v5.9.0
       SKAFFOLD_VERSION: v2.24.0
